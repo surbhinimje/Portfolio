@@ -11,9 +11,9 @@ function Projects(){
 return <div id="projects">
 <h1>Projects</h1>
  <Container >
-            <Row className="g-4">
+            <Row>
                 {projects.map((project,k) => (
-                    <Col key={k} xs={12} md={6} lg={4}>
+                    <Col key={k} xs={12} md={12} lg={4}>
                     
                     <Fade cascade>
                         <div className="card-header p-3 border-light">
@@ -30,7 +30,11 @@ return <div id="projects">
                                 ))}</Card.Text></ul>
                            
                               <div class="btn-container">
+                           
+                              
                                 <Card.Link href={project.url}>View Site <FiExternalLink/></Card.Link> 
+                      
+
                                 <Card.Link href={project.repository}>Source Code <BsCodeSlash/></Card.Link> 
                                
                                 </div> 

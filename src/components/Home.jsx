@@ -16,7 +16,7 @@ const Home = () => {
      
       <Row>
            <Col style={{padding:'8%'}}>
-             <Fade cascade><h1 className="name" style={{fontSize:'100px'}}>Surbhi Nimje</h1>
+             <Fade cascade><h1 className="name" >Surbhi Nimje</h1>
       <p className="lead">Software Engineer & Front End Developer</p>
       <a className="pill"  href="#about">About Me</a>
       </Fade>
