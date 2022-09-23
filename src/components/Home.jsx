@@ -3,9 +3,10 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import back from "../images/programmer.jpg";
-import { Slide,Fade } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
-const Home = (props) => {
+
+const Home = () => {
 
 
   return (
@@ -14,26 +15,19 @@ const Home = (props) => {
       <Container>
      
       <Row>
-   
-        <Col style={{padding:'8%'}}>
-     
-        <Fade cascade><h1  style={{fontSize:'100px'}}>Surbhi Nimje</h1>
+           <Col style={{padding:'8%'}}>
+             <Fade cascade><h1 className="name" style={{fontSize:'100px'}}>Surbhi Nimje</h1>
       <p className="lead">Software Engineer & Front End Developer</p>
-      <button className="pill"  href="#about">About Me</button>
+      <a className="pill"  href="#about">About Me</a>
       </Fade>
         </Col>
-       
-        <Col>
+               <Col>
         <Fade cascade>
-        <img src={back} width="500px" height="500px"/>
+        <img className="pic" src={back} width="500px" height="500px"/>
         </Fade>
         </Col>
-     
-       
-      </Row>
-    
- 
-      </Container>
+     </Row>
+    </Container>
        
       </div>
 

@@ -3,7 +3,7 @@ import React from "react";
 import {BsCodeSlash} from "react-icons/bs";
 import {FiExternalLink} from "react-icons/fi";
 import { Card, Row, Col, Container } from "react-bootstrap";
-import { Slide,Fade } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 
 function Projects(){

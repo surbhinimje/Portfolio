@@ -5,7 +5,7 @@ import {FaEnvelope} from "react-icons/fa";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { Slide,Fade } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 function Contact(){
     const social=[
@@ -31,9 +31,9 @@ function Contact(){
      
      
    <Fade cascade>
-   <Row>
-    {social.map((contact)=>(
-        <Col>
+   <Row className="g-4">
+    {social.map((contact,k)=>(
+        <Col key={k} xs={12} md={6} lg={4}>
         <a href={contact.url} className="pad-container">{contact.icon}</a>
        <Col></Col>
         <a href={contact.url} className="pad-container">{" "+contact.text}</a>

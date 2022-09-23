@@ -1,6 +1,7 @@
 import React from "react";
 import Surbhi from "../images/profile-pic.png";
-import { Slide,Fade,Reveal } from "react-awesome-reveal";
+import {Fade } from "react-awesome-reveal";
+import {  Row, Col, Container } from "react-bootstrap";
 
 
 function About(){
@@ -12,19 +13,28 @@ function About(){
      <p className="info"> I am a Software Engineer with 1.75 years of experience. <br/>I have a Bachelor's degree in Computer Engineering, seeking employment as a FullStack Developer or a Web Developer.<br/> I am passionate about consistently advancing my knowledge and skills. </p>
     </Fade>
         <h1>My Skills</h1>
-        <Fade cascade>
+        <Container >
+          
+       
             <div class="horizontalList">
-           
-            { skills.map((skill)=>(
+            <Row className="g-3">
+            { skills.map((skill,k)=>(
+              
+                <Col key={k} xs={12} md={6} lg={4}>
+                
                 <div class="skill">
                     {skill}
                 </div>
+                </Col>
+                
             ))}
            
-        
+            </Row>
                
 </div>
-    </Fade>
+    
+
+        </Container>
 
     </div>
 }

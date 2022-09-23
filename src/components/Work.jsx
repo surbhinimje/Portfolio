@@ -1,9 +1,6 @@
 import React from "react";
 import Tangentia from "../images/tangentia.png";
 import Infosys from "../images/infosys.png";
-
-
-
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 

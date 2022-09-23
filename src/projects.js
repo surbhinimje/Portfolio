@@ -3,8 +3,8 @@ import Picsagram from "./images/Picsagram.png";
 import Restaurant from "./images/Restaurant.png";
 import Keeper from "./images/Keeper.png";
 import ToDoList from "./images/ToDoList.png";
-import AnalogClock from "./images/AnalogClock.png";
-import DigitalClock from "./images/DigitalClock.png";
+// import AnalogClock from "./images/AnalogClock.png";
+// import DigitalClock from "./images/DigitalClock.png";
 import Calculator from "./images/Calculator.png";
 const projects=[
     {
