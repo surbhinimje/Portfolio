@@ -5,7 +5,32 @@ import {  Row, Col, Container } from "react-bootstrap";
 
 
 function About(){
-    const skills=["HTML","CSS","Bootstrap","Javascript","React","NodeJs","Java","SQL","MySQL","Sterling OMS","Git"];
+   const skills = [
+  "SQL",
+  "Web Development",
+  "Python",
+  "Sterling OMS",
+  "Git",
+  "Gen AI",
+  "API",
+  "Microsoft Office",
+  "PowerPoint",
+  "Excel",
+  "Power BI",
+  "Business Analytics",
+  "Data Analytics",
+  "Strategy and Management",
+  "Communication",
+  "Project Management",
+  "Product Management",
+  "Documentation",
+  "Jira",
+  "Trello",
+  "A/B Testing",
+  "Product Strategy",
+  "Agile"
+];
+
     return <div id="about" >
 
         <h1>About Me</h1>
